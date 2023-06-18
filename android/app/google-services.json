@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "771843172316",
+    "project_id": "probusproject-2ea6c",
+    "storage_bucket": "probusproject-2ea6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771843172316:android:824fd116087bb41c881119",
+        "android_client_info": {
+          "package_name": "com.example.pro_bus_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771843172316-m7do7el283irpe2kf4ktq41kd5j4eju4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt1AjB9Ypn5JuFa54zZUFv4peehdYeek0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771843172316-m7do7el283irpe2kf4ktq41kd5j4eju4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
