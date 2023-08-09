@@ -54,15 +54,21 @@ dependencies:
   easy_search_bar: ^2.5.0
   custom_switch_widget: ^0.0.1
   flutter_advanced_switch: ^3.0.1
-  book_my_seat: ^1.0.1
-
-
-
+  numberpicker: ^2.1.2
+  share_plus: ^7.0.2
+  geocoding: ^2.1.0
+  pay: ^1.1.1
+  qr_flutter: ^4.0.0
+  permission_handler: ^10.4.2
+  image_gallery_saver: ^2.0.3
+  qr_code_scanner: ^1.0.1
+  url_launcher: ^6.1.8
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-   
+
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

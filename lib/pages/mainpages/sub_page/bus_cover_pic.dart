@@ -67,10 +67,10 @@ class _BusCoverPicState extends State<BusCoverPic> {
   }
 
   Future addBusImage(String image) async {
-    await FirebaseFirestore.instance.collection('passengers').where('email', isEqualTo: user?.email).get().then(
+    await FirebaseFirestore.instance.collection('buses').where('email', isEqualTo: user?.email).get().then(
           (snapshot) => snapshot.docs.forEach((document) {
         try{
-          FirebaseFirestore.instance.collection('passengers').doc(document.id).update({'bus_cover': image});
+          FirebaseFirestore.instance.collection('buses').doc(document.id).update({'bus_cover_image': image});
         } catch (e){
           print('filed');
         }

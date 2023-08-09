@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:pro_bus_app/profile%20page%20tab/activity.dart';
-import 'package:pro_bus_app/profile%20page%20tab/user_profile_bar.dart';
+import 'package:pro_bus_app/profile%20page%20tab/user_profile.dart';
 import 'package:pro_bus_app/profile%20page%20tab/bus_profile_page.dart';
+
+import '../pages/map_assistant/testting.dart';
 
 
 class ProfilesBar extends StatelessWidget {
@@ -26,7 +28,7 @@ class ProfilesBar extends StatelessWidget {
             children: <Widget>[
               UserProfilePage(),
               BusProfilePage(),
-              ActivityPage(),
+              ActivityPage()
             ],
           )),
     );
